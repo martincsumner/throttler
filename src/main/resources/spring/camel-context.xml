@@ -10,7 +10,7 @@
   <camelContext xmlns="http://camel.apache.org/schema/spring">
      <route>
        <from uri="{{from.endpoint}}"/>
-       <throttle timePeriodMillis="{{throttlingtime}}">
+       <throttle timePeriodMillis="1000">
           <constant>{{throttle}}</constant>
          <to uri="{{to.endpoint}}"/>
        </throttle>
