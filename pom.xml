@@ -31,6 +31,8 @@ to.endpoint=http://localhost/hasbeenthrottled
 throttle=20
 throttlingtime=10000
 
+added a comment...
+
 
  -->
 
@@ -64,6 +66,10 @@ throttlingtime=10000
       <artifactId>camel-http</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-jetty</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
@@ -72,7 +78,8 @@ throttlingtime=10000
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 
-    <!-- testing -->
+    <!-- testing
+   -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
