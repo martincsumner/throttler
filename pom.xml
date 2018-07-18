@@ -20,11 +20,6 @@
     <fabric8.version>2.2.170.redhat-000023</fabric8.version>
     <spring-boot.version>1.4.1.RELEASE</spring-boot.version>
 
-		<fabric8.env.FROM_ENDPOINT>http://localhost/tobethrottled</fabric8.env.FROM_ENDPOINT>
-    <fabric8.env.TO_ENDPOINT>http://localhost/hasbeenthrottled</fabric8.env.TO_ENDPOINT>
-    <fabric8.env.THROTTLE>20</fabric8.env.THROTTLE>
-    <fabric8.env.THROTTLINGTIME>10000</fabric8.env.THROTTLINGTIME>
-
 <!--
 from.endpoint=http://localhost/tobethrottled
 to.endpoint=http://localhost/hasbeenthrottled
@@ -32,7 +27,6 @@ throttle=20
 throttlingtime=10000
 
 added a comment...
-
 
  -->
 

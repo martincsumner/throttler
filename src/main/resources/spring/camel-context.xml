@@ -12,6 +12,7 @@
        <from uri="{{from.endpoint}}"/>
        <throttle timePeriodMillis="1000">
           <constant>{{throttle}}</constant>
+           <log message="Log message"/>
          <to uri="{{to.endpoint}}"/>
        </throttle>
      </route>
